@@ -1,4 +1,4 @@
-//
+// https://github.com/WaridIIUC/basic-javascript-assignment
 
 
 // kilometerToMeter function start here
@@ -15,8 +15,7 @@ function kilometerToMeter(kilometer){
     }
     else{
         return "Wrong Input. Only number will accept.";
-    }
-    
+    }   
 }
 
 
@@ -39,8 +38,7 @@ function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop){
     }
     else{
         return "Wrong Input. Only number value will accept.";
-    }
-    
+    }   
 }
 
 
@@ -50,8 +48,7 @@ function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop){
 
 function hotelCost(numberOfDays) {
     if(typeof(numberOfDays) == "number"){   //check input value is number or not.
-
-        if (numberOfDays < 0) {
+        if (numberOfDays < 0) {         // check input value is negative or not
             return "Wrong Input. Negative value of days is not accept";
         }
         else {
@@ -74,13 +71,10 @@ function hotelCost(numberOfDays) {
             }
             return totalRent;
         }
-
     }
-
     else{
         return "Wrong Input. Only number values are accepted."
-    }
-    
+    }   
 }
 
 
@@ -90,7 +84,7 @@ function hotelCost(numberOfDays) {
 
 function megaFriend(friendsName) {
     if (friendsName.length > 0){    // check given array is empty or not
-        var maxLengthName = friendsName[0];
+        var maxLengthName = friendsName[0];     
         for (var i = 0; i < friendsName.length; i++) {
             if (friendsName[i].length > maxLengthName.length) {
                 maxLengthName = friendsName[i];
@@ -98,9 +92,8 @@ function megaFriend(friendsName) {
         }
         return maxLengthName;
     }
-
     else{
         return "Wrong Input. Given array is empty.";
     }
-
 }
+

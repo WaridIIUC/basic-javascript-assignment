@@ -49,7 +49,7 @@ function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop){
 function hotelCost(numberOfDays) {
     if(typeof(numberOfDays) == "number"){   //check input value is number or not.
         if (numberOfDays < 0) {         // check input value is negative or not
-            return "Wrong Input. Negative value of days is not accept";
+            return "Wrong Input. Negative value of days is not accept.";
         }
         else {
             var totalStayDays = numberOfDays;
